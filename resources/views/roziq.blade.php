@@ -20,22 +20,22 @@
                         alt="User profile picture">
                     </div>
 
-                    <h3 class="profile-username text-center">Roziq Mahbubi</h3>
+                    <h3 class="profile-username text-center">{{ $profile -> nama}}</h3>
 
                     <p class="text-muted text-center">Politeknik Negeri Malang</p>
 
                     <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
-                        <b>NIM</b> <a class="float-right">2141720086</a>
+                        <b>NIM</b> <a class="float-right">{{ $profile -> nim}}</a>
                     </li>
                     <li class="list-group-item">
-                        <b>GitHub</b> <a href="https://github.com/rzqmhb" class="float-right">@rzqmhb</a>
+                        <b>GitHub</b> <a href="https://github.com/rzqmhb" class="float-right">{{ $profile -> github}}</a>
                     </li>
                     <li class="list-group-item">
-                        <b>Email</b> <a class="float-right">roziqmahbubi22@gmail.com</a>
+                        <b>Email</b> <a class="float-right">{{ $profile -> email}}</a>
                     </li>
                     <li class="list-group-item">
-                        <b>Whatsapp</b> <a class="float-right">+6287762874125</a>
+                        <b>Whatsapp</b> <a class="float-right">{{ $profile -> no_whatsapp}}</a>
                     </li>
                     </ul>
 
@@ -54,14 +54,14 @@
                     <strong><i class="fas fa-book mr-1"></i> Education</strong>
 
                     <p class="text-muted">
-                    D4 TI - Politeknik Negeri Malang
+                    {{ $profile -> education}}
                     </p>
 
                     <hr>
 
                     <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
 
-                    <p class="text-muted">Malang, Jawa Timur</p>
+                    <p class="text-muted">{{ $profile -> location}}</p>
 
                     <hr>
 
@@ -97,7 +97,7 @@
                     </div>
                     </div>
                     <div class="card-body">
-                    Saya gak tahu mau nulis apa jadi saya karang aja h3h3h3
+                    {{ $profile -> note}}
                     </div>
                     <!-- /.card-body -->
                 </div>

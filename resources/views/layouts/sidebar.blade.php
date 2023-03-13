@@ -25,13 +25,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="{{route('devi')}}" class="nav-link">
+                    <a href="{{route('profile', ['slug' => 'devi-andini-febrianti'])}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Devi Andini Febrianti</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('roziq')}}" class="nav-link">
+                    <a href="{{route('profile', ['slug' => 'roziq-mahbubi'])}}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Roziq Mahbubi</p>
                     </a>

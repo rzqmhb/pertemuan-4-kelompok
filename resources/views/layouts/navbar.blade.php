@@ -11,8 +11,8 @@
             Profile
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-            <a class="dropdown-item" href="{{route('devi')}}">Devi Andini Febrianti</a>
-            <a class="dropdown-item" href="{{route('roziq')}}">Roziq Mahbubi</a>
+            <a class="dropdown-item" href="{{route('profile', ['slug' => 'devi-andini-febrianti'])}}">Devi Andini Febrianti</a>
+            <a class="dropdown-item" href="{{route('profile', ['slug' => 'roziq-mahbubi'])}}">Roziq Mahbubi</a>
             </div>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
