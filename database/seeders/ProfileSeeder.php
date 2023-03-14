@@ -37,7 +37,7 @@ class ProfileSeeder extends Seeder
                 'education' => 'D4 TI/2G - Politeknik Negeri Malang',
                 'location' => 'Malang, Jawa Timur',
                 'note' => 'pertemuan 4 - pwl',
-                'slug' => 'devi-andini'
+                'slug' => 'devi-andini-febrianti'
             ]
         ]);
     }

@@ -16,7 +16,7 @@
                 <div class="card-body box-profile">
                     <div class="text-center">
                     <img class="profile-user-img img-fluid img-circle"
-                        src="{{asset('/')}}img/roziq.jpg"
+                        src="{{asset('/')}}img/devi.jpeg"
                         alt="User profile picture">
                     </div>
 
