@@ -27,17 +27,18 @@ class ProfileSeeder extends Seeder
                 'note' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem odio, repellat illo quos eius similique, deserunt sint assumenda ipsa eum facere exercitationem esse, nisi voluptatibus corrupti cum rerum nihil necessitatibus.',
                 'slug' => 'roziq-mahbubi'
             ]
-            // ,
-            // [
-            //     'nama' => '',
-            //     'nim' => '',
-            //     'github' => '',
-            //     'email' => '',
-            //     'no_whatsapp' => '',
-            //     'education' => '',
-            //     'location' => '',
-            //     'note' => ''
-            // ]
+            ,
+            [
+                'nama' => 'Devi Andini Febrianti',
+                'nim' => '2141720189',
+                'github' => 'https://github.com/deviandinifebrianti',
+                'email' => 'dv.andinifebrianti@gmail.com',
+                'no_whatsapp' => '+81936791863',
+                'education' => 'D4 TI/2G - Politeknik Negeri Malang',
+                'location' => 'Malang, Jawa Timur',
+                'note' => 'pertemuan 4 - pwl',
+                'slug' => 'devi-andini'
+            ]
         ]);
     }
 }

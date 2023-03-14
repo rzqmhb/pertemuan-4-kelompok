@@ -16,26 +16,26 @@
                 <div class="card-body box-profile">
                     <div class="text-center">
                     <img class="profile-user-img img-fluid img-circle"
-                        src="{{asset('/')}}img/devi.jpeg"
+                        src="{{asset('/')}}img/roziq.jpg"
                         alt="User profile picture">
                     </div>
 
-                    <h3 class="profile-username text-center">Devi Andini Febrianti</h3>
+                    <h3 class="profile-username text-center">{{ $profile -> nama}}</h3>
 
                     <p class="text-muted text-center">Politeknik Negeri Malang</p>
 
                     <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
-                        <b>NIM</b> <a class="float-right">2141720189</a>
+                        <b>NIM</b> <a class="float-right">{{ $profile -> nim}}</a>
                     </li>
                     <li class="list-group-item">
-                        <b>GitHub</b> <a href="https://github.com/deviandinifebrianti" class="float-right">@deviandinifebrianti</a>
+                        <b>GitHub</b> <a href="https://github.com/deviandinifebrianti" class="float-right">{{ $profile -> github}}</a>
                     </li>
                     <li class="list-group-item">
-                        <b>Email</b> <a class="float-right">dv.andinifebrianti@gmail.com</a>
+                        <b>Email</b> <a class="float-right">{{ $profile -> email}}</a>
                     </li>
                     <li class="list-group-item">
-                        <b>Whatsapp</b> <a class="float-right">+6281936791863</a>
+                        <b>Whatsapp</b> <a class="float-right">{{ $profile -> no_whatsapp}}</a>
                     </li>
                     </ul>
 
@@ -54,27 +54,25 @@
                     <strong><i class="fas fa-book mr-1"></i> Education</strong>
 
                     <p class="text-muted">
-                    D4 TI / 2G- Politeknik Negeri Malang
+                    {{ $profile -> education}}
                     </p>
 
                     <hr>
 
                     <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
 
-                    <p class="text-muted">Kediri, Jawa Timur</p>
+                    <p class="text-muted">{{ $profile -> location}}</p>
 
                     <hr>
 
                     <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
 
                     <p class="text-muted">
-                    <ul>
-                    <li> <span class="tag tag-danger">UI Design</span> </li>
-                    <li> <span class="tag tag-success">Laravel</span> </li>
-                    <li> <span class="tag tag-info">Java</span> </li>
-                    <li> <span class="tag tag-warning">PHP</span> </li>
-                    <li> <span class="tag tag-primary">MySQL</span> </li>
-                    </ul>
+                    <span class="tag tag-danger">UI Design</span>
+                    <span class="tag tag-success">Laravel</span>
+                    <span class="tag tag-info">Java</span>
+                    <span class="tag tag-warning">PHP</span>
+                    <span class="tag tag-primary">MySQL</span>
                     </p>
 
                 </div>
@@ -99,7 +97,7 @@
                     </div>
                     </div>
                     <div class="card-body">
-                    Tak kenal maka tak sayang, makanya ayo kenalan biar sayang haha
+                    {{ $profile -> note}}
                     </div>
                     <!-- /.card-body -->
                 </div>
