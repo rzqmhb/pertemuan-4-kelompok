@@ -35,9 +35,9 @@ class ProfileSeeder extends Seeder
                 'email' => 'dv.andinifebrianti@gmail.com',
                 'no_whatsapp' => '+81936791863',
                 'education' => 'D4 TI/2G - Politeknik Negeri Malang',
-                'location' => 'Malang, Jawa Timur',
+                'location' => 'Kediri, Jawa Timur',
                 'note' => 'pertemuan 4 - pwl',
-                'slug' => 'devi-andini'
+                'slug' => 'devi-andini-febrianti'
             ]
         ]);
     }
